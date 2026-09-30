@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: "Sofia", sans-serif;
+    background: #FFEAF9;
+    background-image: radial-gradient(rgba(94, 25, 85, 0.2) 1.5px, transparent 1.5px);
+    background-size: 24px 24px;
+}
+
+nav{
+    border: 1px solid #BF88AD;
+    background: #FFF4FC;
+}
+
+.navbar-toggler{
+    padding: 10px;
+}
+.navbar .nav-link:hover, .dropdown-item:hover {
+  color: #ffc107;
+}
+
+.logo-img{
+    width: 40px;
+    height: 40px;
+}
+
+h2{
+    font-weight: 600;
+    text-align: center;
+    padding: 60px 30px 20px 30px;
+}
+
+section{
+    padding: 30px;
+}
+
+#home{
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.show-contain, .img-contain{
+    padding-bottom: 10px;
+}
+
+.home-showcase{
+    width: 100%;
+    max-width: 600px;
+    height: 100%;
+    max-height: 650px;
+    border: 15px solid #ffffff;
+    border-radius: 10px;
+}
+
+.containter{
+    padding: 0px 50px;
+}
+
+.welcome-container{
+    padding: 30px 80px;
+    width: 600px;
+    border: 1px solid #BF88AD;
+    border-radius: 30px;
+    background-color: rgba(255, 239, 250, 0.7);
+}
+
+.services-text-in{
+    font-size: large;
+}
+
+.services-box{
+    padding: 40px;
+    width: 100%;
+    max-width: 650px;
+    border: 1px solid #BF88AD;
+    border-radius: 10px;
+    background-color: #FFE3FF;
+}
+
+.card-contain, .aboutUs-contain, .welcome-container, .form-contain, .services-contain{
+    padding: 10px;
+    justify-items: center;
+    text-align: center;
+}
+
+.card{
+    padding: 5px;
+}
+
+.card-body{
+    font-size: larger;
+    font-weight: 500;
+}
+
+.about-text{
+    padding: 30px 50px;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    border: 1px solid #BF88AD;
+    border-radius: 10px;
+    background-color: #FFE3FF;
+}
+
+.aboutUs-img{
+    width: 100%;
+    max-width: 400px;
+    height: 100%;
+    max-height: 400px;
+    border: 5px solid #BF88AD;
+    border-radius: 10px;
+}
+
+form{
+    padding: 50px;
+    width: 90%;
+    border: 1px solid #BF88AD;
+    border-radius: 15px;
+    background-color: rgba(199, 156, 185, 0.7);
+}
+
+.buttonContainer{
+    padding: 10px;
+    width: 100%;
+    max-width: 150px;
+    border: 2px solid #BF88AD;
+    border-radius: 15px;
+    background-color: #FFE3FF;
+    color: #000000;
+}

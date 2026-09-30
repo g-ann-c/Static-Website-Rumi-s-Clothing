@@ -110,17 +110,17 @@ require("./components/navbar.php");
             </div>
 
             <div class="form-floating mb-3">
-                <input type="text" name="phone_number" class="form-control" id="floatingInputNum" placeholder="">
+                <input type="text" name="phone_number" class="form-control" id="floatingInputNum" placeholder="" autocomplete="off">
                 <label for="floatingInputNum">Phone Number</label>
             </div>
 
             <div class="form-floating mb-3">
-                <input type="text" name="subject" class="form-control" id="floatingInputSubject" placeholder="" required>
+                <input type="text" name="subject" class="form-control" id="floatingInputSubject" placeholder="" required autocomplete="off">
                 <label for="floatingInputSubject">Subject</label>
             </div>
 
             <div class="form-floating mb-3">
-                <textarea type="text" name="concerns" class="form-control" placeholder="" id="floatingTextarea" style="height: 100px" required></textarea>
+                <textarea type="text" name="concerns" class="form-control" placeholder="" id="floatingTextarea" style="height: 100px" required autocomplete="off"></textarea>
                 <label for="floatingTextarea">How can we help you?</label>
             </div>
             <button type="submit" class="buttonContainer btn btn-primary" name="btnSubmit">Submit</button>

@@ -36,7 +36,7 @@ require("./components/navbar.php");
         
             <div>
                 <h2>Custom Tailoring</h2>
-                <p class="services-text-in">Rumi's Clothing provides our dear customers custom tailoring. Creating or altering garmets to fit an individual's unique body measurements.</p>
+                <p class="services-text-in">Rumi's Clothing provides our dear customers custom tailoring. Creating or altering garments to fit an individual's unique body measurements.</p>
             </div>
                 
             <div>
@@ -105,7 +105,7 @@ require("./components/navbar.php");
             </div>
 
             <div class="form-floating mb-3">
-                <input type="text" name="email" class="form-control" id="floatingInputEmail" placeholder="" required autocomplete="off">
+                <input type="email" name="email" class="form-control" id="floatingInputEmail" placeholder="" required autocomplete="off">
                 <label for="floatingInputEmail">Email address</label>
             </div>
 
